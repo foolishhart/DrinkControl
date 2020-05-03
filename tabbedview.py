@@ -216,7 +216,7 @@ if __name__=='__main__':
     else:
         v0['labelDelta'].text_color = 'green'
         v0['labelDelta'].text = str(int(60 - units30))
-    Buff1=float(v0['labelDelta'].text)-14+float(v0['labelD10'].text)
+    Buff1=float(60-units30 -14)+float(v0['labelD10'].text)
     Buff2 = Buff1 - 14 +float(v0['labelD11'].text)
     Buff3 = Buff2 -14+float(v0['labelD12'].text)
     Buff4 = Buff3 -14 +float(v0['labelD13'].text)
@@ -256,7 +256,7 @@ if __name__=='__main__':
     else:
         v1['labelDelta'].text_color = 'green'
         v1['labelDelta'].text = str(int(182 - units3months))
-    Buff1=float(v1['labelDelta'].text)-14+float(v1['labelD10'].text)
+    Buff1=float(182 - units3months-14)+float(v1['labelD10'].text)
     Buff2 = Buff1 - 14 +float(v1['labelD11'].text)
     Buff3 = Buff2 -14+float(v1['labelD12'].text)
     Buff4 = Buff3 -14 +float(v1['labelD13'].text)
@@ -298,7 +298,7 @@ if __name__=='__main__':
     else:
         v2['labelDelta'].text_color = 'green'
         v2['labelDelta'].text = str(int(364 - units6months))
-    Buff1=float(v2['labelDelta'].text)-14+float(v2['labelD10'].text)
+    Buff1=float(364 - units6months-14)+float(v2['labelD10'].text)
     Buff2 = Buff1 - 14 +float(v2['labelD11'].text)
     Buff3 = Buff2 -14+float(v2['labelD12'].text)
     Buff4 = Buff3 -14 +float(v2['labelD13'].text)
@@ -340,7 +340,7 @@ if __name__=='__main__':
     else:
         v3['labelDelta'].text_color = 'green'
         v3['labelDelta'].text = str(int(728 - units12months))
-    Buff1=float(v3['labelDelta'].text)-14+float(v3['labelD10'].text)
+    Buff1=float(728 - units12months-14)+float(v3['labelD10'].text)
     Buff2 = Buff1 - 14 +float(v3['labelD11'].text)
     Buff3 = Buff2 -14+float(v3['labelD12'].text)
     Buff4 = Buff3 -14 +float(v3['labelD13'].text)
