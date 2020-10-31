@@ -173,7 +173,7 @@ if __name__=='__main__':
     # today = datetime(2019, 12, 1, 12, 43, 22, 181463) #use to set manual date for 'today' for calculations
     previous = deque(maxlen=5) #used for displayimg the last five days with drinks - non-drinking days are skipped
     prevWeeks = [0,0,0,0]
-    f = open("drinkcontrol.csv")  # Open file for reading drinks
+    f = open("drinkcontrol.csv", encoding='utf8')  # Open file for reading drinks
     lines = f.read().splitlines()  # read file into list
     del lines[0]  # delete title row
     drinks = []
